@@ -14,19 +14,19 @@ To update the CodeBuild project:
 
 Main services:
 
-    cody deploy demo
+    cody deploy cody-demo
 
 If you have multiple codebuild projects associated with the same repo, you can use the `--type` option.  Example:
 
-    cody deploy demo --type deploy
+    cody deploy cody-demo --type deploy
 
 ## Start a Deploy
 
 To start a CodeBuild build:
 
-    cody start demo
-    cody start demo --type deploy
+    cody start cody-demo
+    cody start cody-demo --type deploy
 
 To specify a branch:
 
-    cody start demo --type deploy -b feature
+    cody start cody-demo --type deploy -b feature
