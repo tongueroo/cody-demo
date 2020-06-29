@@ -13,3 +13,4 @@ phases:
       - ruby -v
       - which rbenv
       - cat /etc/os-release
+      - echo $PATH
