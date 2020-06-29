@@ -12,3 +12,4 @@ phases:
       - which ruby
       - ruby -v
       - which rbenv
+      - cat /etc/os-release
