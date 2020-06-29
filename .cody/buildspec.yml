@@ -9,3 +9,6 @@ phases:
   build:
     commands:
       - uptime
+      - which ruby
+      - ruby -v
+      - which rbenv
