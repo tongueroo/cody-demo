@@ -5,3 +5,8 @@ environment_variables(
   JETS_ENV: "test",
   # API_KEY: "ssm:/codebuild/demo/api_key" # Example of ssm parameter
 )
+
+artifacts(
+  Type: "S3",
+  Location: "SOME-BUCKET"
+)
