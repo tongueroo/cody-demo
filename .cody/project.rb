@@ -5,3 +5,9 @@ environment_variables(
   API_KEY: "ssm:/codebuild/demo/API_KEY",
   SSH_PRIVATE_KEY: "ssm:/codebuild/demo/SSH_PRIVATE_KEY",
 )
+
+secondary_sources([{
+  SourceIdentifier: "InfraRepo",
+  Location: "https://github.com/tongueroo/infrastructure.git",
+  Type: "GITHUB",
+}])
