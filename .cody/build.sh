@@ -14,3 +14,5 @@ cat ~/.ssh/id_rsa.pub
 git clone git@github.com:tongueroo/infrastructure.git
 
 env | grep -v SSH | sort
+
+pwd
