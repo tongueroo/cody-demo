@@ -5,7 +5,8 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      ruby: 2.6
+      ruby: latest
   build:
     commands:
       - uptime
+      - ruby .cody/script/account.rb
