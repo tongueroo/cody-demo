@@ -9,4 +9,5 @@ phases:
   build:
     commands:
       - uptime
+      - gem install --no-document aws-sdk-core
       - ruby .cody/script/account.rb
